@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380658F81C482C0000FF6795 /* RAMPaperSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380658F71C482C0000FF6795 /* RAMPaperSwitch.swift */; };
+		3821A8A01C318EBD00408D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821A89F1C318EBD00408D44 /* AppDelegate.swift */; };
+		3821A8A51C318EBD00408D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3821A8A31C318EBD00408D44 /* Main.storyboard */; };
+		3821A8A81C318EBD00408D44 /* iPiggyBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3821A8A61C318EBD00408D44 /* iPiggyBox.xcdatamodeld */; };
+		3821A8AA1C318EBE00408D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3821A8A91C318EBE00408D44 /* Assets.xcassets */; };
+		3821A8AD1C318EBE00408D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3821A8AB1C318EBE00408D44 /* LaunchScreen.storyboard */; };
+		3821A8BA1C31A2A900408D44 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821A8B91C31A2A900408D44 /* Support.swift */; };
+		3821A8BC1C31A80F00408D44 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821A8BB1C31A80F00408D44 /* ListViewController.swift */; };
+		3821A8BE1C31A89700408D44 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821A8BD1C31A89700408D44 /* SettingsViewController.swift */; };
+		3821A8C01C31A8A900408D44 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821A8BF1C31A8A900408D44 /* StatisticViewController.swift */; };
+		3821A8C41C31BF8B00408D44 /* Calculation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821A8C21C31BF8B00408D44 /* Calculation+CoreDataProperties.swift */; };
+		3821A8C51C31BF8B00408D44 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821A8C31C31BF8B00408D44 /* Calculation.swift */; };
+		3821A8C81C31C12800408D44 /* Targets+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821A8C61C31C12800408D44 /* Targets+CoreDataProperties.swift */; };
+		3821A8C91C31C12800408D44 /* Targets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821A8C71C31C12800408D44 /* Targets.swift */; };
+		3821A8CB1C31C45700408D44 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821A8CA1C31C45700408D44 /* DetailViewController.swift */; };
+		384A885D1C42B6FD00A32232 /* AddPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384A885C1C42B6FD00A32232 /* AddPaymentViewController.swift */; };
+		384A885F1C44420F00A32232 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384A885E1C44420F00A32232 /* CollectionViewCell.swift */; };
+		38E1909B1D031ED600502296 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E1909A1D031ED600502296 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		380658F71C482C0000FF6795 /* RAMPaperSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMPaperSwitch.swift; sourceTree = "<group>"; };
+		3821A89C1C318EBD00408D44 /* iPiggyBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPiggyBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3821A89F1C318EBD00408D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3821A8A41C318EBD00408D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3821A8A71C318EBD00408D44 /* iPiggyBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPiggyBox.xcdatamodel; sourceTree = "<group>"; };
+		3821A8A91C318EBE00408D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3821A8AC1C318EBE00408D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3821A8AE1C318EBE00408D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3821A8B91C31A2A900408D44 /* Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		3821A8BB1C31A80F00408D44 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = ../ListViewController.swift; sourceTree = "<group>"; };
+		3821A8BD1C31A89700408D44 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3821A8BF1C31A8A900408D44 /* StatisticViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		3821A8C21C31BF8B00408D44 /* Calculation+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Calculation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3821A8C31C31BF8B00408D44 /* Calculation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
+		3821A8C61C31C12800408D44 /* Targets+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Targets+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3821A8C71C31C12800408D44 /* Targets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Targets.swift; sourceTree = "<group>"; };
+		3821A8CA1C31C45700408D44 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		384A885C1C42B6FD00A32232 /* AddPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPaymentViewController.swift; sourceTree = "<group>"; };
+		384A885E1C44420F00A32232 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		38E1909A1D031ED600502296 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3821A8991C318EBD00408D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3821A8931C318EBD00408D44 = {
+			isa = PBXGroup;
+			children = (
+				3821A89E1C318EBD00408D44 /* iPiggyBox */,
+				3821A89D1C318EBD00408D44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3821A89D1C318EBD00408D44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3821A89C1C318EBD00408D44 /* iPiggyBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3821A89E1C318EBD00408D44 /* iPiggyBox */ = {
+			isa = PBXGroup;
+			children = (
+				3821A8C11C31A8B200408D44 /* Controllers */,
+				3821A89F1C318EBD00408D44 /* AppDelegate.swift */,
+				3821A8B91C31A2A900408D44 /* Support.swift */,
+				3821A8A91C318EBE00408D44 /* Assets.xcassets */,
+				3821A8A31C318EBD00408D44 /* Main.storyboard */,
+				3821A8B81C31912000408D44 /* DataBase */,
+				3821A8AB1C318EBE00408D44 /* LaunchScreen.storyboard */,
+				3821A8AE1C318EBE00408D44 /* Info.plist */,
+			);
+			path = iPiggyBox;
+			sourceTree = "<group>";
+		};
+		3821A8B81C31912000408D44 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				3821A8A61C318EBD00408D44 /* iPiggyBox.xcdatamodeld */,
+				3821A8C61C31C12800408D44 /* Targets+CoreDataProperties.swift */,
+				3821A8C71C31C12800408D44 /* Targets.swift */,
+				3821A8C21C31BF8B00408D44 /* Calculation+CoreDataProperties.swift */,
+				3821A8C31C31BF8B00408D44 /* Calculation.swift */,
+			);
+			name = DataBase;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3821A8C11C31A8B200408D44 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				38E476401C468A800081B01A /* List */,
+				38E476431C468AD30081B01A /* Statistic */,
+				38E476411C468A8F0081B01A /* Settings */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		38E476401C468A800081B01A /* List */ = {
+			isa = PBXGroup;
+			children = (
+				3821A8BB1C31A80F00408D44 /* ListViewController.swift */,
+				384A885E1C44420F00A32232 /* CollectionViewCell.swift */,
+				38E1909A1D031ED600502296 /* TableViewCell.swift */,
+				3821A8CA1C31C45700408D44 /* DetailViewController.swift */,
+				384A885C1C42B6FD00A32232 /* AddPaymentViewController.swift */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		38E476411C468A8F0081B01A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3821A8BD1C31A89700408D44 /* SettingsViewController.swift */,
+				380658F71C482C0000FF6795 /* RAMPaperSwitch.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		38E476431C468AD30081B01A /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				3821A8BF1C31A8A900408D44 /* StatisticViewController.swift */,
+			);
+			name = Statistic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3821A89B1C318EBD00408D44 /* iPiggyBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3821A8B11C318EBE00408D44 /* Build configuration list for PBXNativeTarget "iPiggyBox" */;
+			buildPhases = (
+				3821A8981C318EBD00408D44 /* Sources */,
+				3821A8991C318EBD00408D44 /* Frameworks */,
+				3821A89A1C318EBD00408D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPiggyBox;
+			productName = iPiggyBox;
+			productReference = 3821A89C1C318EBD00408D44 /* iPiggyBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3821A8941C318EBD00408D44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Maxim  Grozniy";
+				TargetAttributes = {
+					3821A89B1C318EBD00408D44 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 3821A8971C318EBD00408D44 /* Build configuration list for PBXProject "iPiggyBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3821A8931C318EBD00408D44;
+			productRefGroup = 3821A89D1C318EBD00408D44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3821A89B1C318EBD00408D44 /* iPiggyBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3821A89A1C318EBD00408D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3821A8AD1C318EBE00408D44 /* LaunchScreen.storyboard in Resources */,
+				3821A8AA1C318EBE00408D44 /* Assets.xcassets in Resources */,
+				3821A8A51C318EBD00408D44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3821A8981C318EBD00408D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E1909B1D031ED600502296 /* TableViewCell.swift in Sources */,
+				3821A8CB1C31C45700408D44 /* DetailViewController.swift in Sources */,
+				3821A8C41C31BF8B00408D44 /* Calculation+CoreDataProperties.swift in Sources */,
+				3821A8A81C318EBD00408D44 /* iPiggyBox.xcdatamodeld in Sources */,
+				3821A8BE1C31A89700408D44 /* SettingsViewController.swift in Sources */,
+				3821A8C81C31C12800408D44 /* Targets+CoreDataProperties.swift in Sources */,
+				380658F81C482C0000FF6795 /* RAMPaperSwitch.swift in Sources */,
+				3821A8C91C31C12800408D44 /* Targets.swift in Sources */,
+				3821A8BC1C31A80F00408D44 /* ListViewController.swift in Sources */,
+				3821A8A01C318EBD00408D44 /* AppDelegate.swift in Sources */,
+				384A885F1C44420F00A32232 /* CollectionViewCell.swift in Sources */,
+				3821A8BA1C31A2A900408D44 /* Support.swift in Sources */,
+				3821A8C01C31A8A900408D44 /* StatisticViewController.swift in Sources */,
+				3821A8C51C31BF8B00408D44 /* Calculation.swift in Sources */,
+				384A885D1C42B6FD00A32232 /* AddPaymentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3821A8A31C318EBD00408D44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3821A8A41C318EBD00408D44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3821A8AB1C318EBE00408D44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3821A8AC1C318EBE00408D44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3821A8AF1C318EBE00408D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3821A8B01C318EBE00408D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3821A8B21C318EBE00408D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPiggyBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosxdevelop.iPiggyBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3821A8B31C318EBE00408D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iPiggyBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosxdevelop.iPiggyBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3821A8971C318EBD00408D44 /* Build configuration list for PBXProject "iPiggyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3821A8AF1C318EBE00408D44 /* Debug */,
+				3821A8B01C318EBE00408D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3821A8B11C318EBE00408D44 /* Build configuration list for PBXNativeTarget "iPiggyBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3821A8B21C318EBE00408D44 /* Debug */,
+				3821A8B31C318EBE00408D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3821A8A61C318EBD00408D44 /* iPiggyBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3821A8A71C318EBD00408D44 /* iPiggyBox.xcdatamodel */,
+			);
+			currentVersion = 3821A8A71C318EBD00408D44 /* iPiggyBox.xcdatamodel */;
+			name = iPiggyBox.xcdatamodeld;
+			path = iPiggyBox/iPiggyBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3821A8941C318EBD00408D44 /* Project object */;
+}
